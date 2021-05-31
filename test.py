@@ -17,5 +17,4 @@ while x<10:
     print (x)
     x += 1
 
-#test avec Justine
 
