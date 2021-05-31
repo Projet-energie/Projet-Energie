@@ -16,4 +16,13 @@ x = 0
 while x<10:
     print (x)
     x += 1
+    
+#ceci est un test
+
+x = 0
+while x<10:
+    print (x)
+    x += 1
+    
+    
 
