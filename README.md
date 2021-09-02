@@ -13,3 +13,6 @@ Le second dataset2 récupéré est un jeu de données relatif aux données de po
 Le troisième dataset, a été récupéré sur le site Data.gouv.fr et porte sur les données de températures quotidiennes en France par régions depuis Janvier 2016 (relevés mensuels).
 Le quatrième jeu de données4 porte sur les données de relevés solaires et vent (relevées toutes les 3 heures), en France Métropolitaine de Janvier 2016 à Décembre 2017.
 Enfin, le dernier jeu de données5 a été récupéré sur le site Open Data et porte sur la consommation annuelle d’électricité et de gaz par département et par secteur d’activité. Les données ont été relevées annuellement de 2011 à 2019.
+
+Rapport complet disponible ici :
+https://drive.google.com/file/d/1MCliy3WoO9PmFOf2pixj1CuxZFtWeoIx/view?usp=sharing
