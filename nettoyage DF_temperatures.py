@@ -24,3 +24,26 @@ inner_merged_conso_temperatures = pd.merge(df_temperatures, df_consommations, on
 # création du df consommations et températures à partir du merge
 df_conso_temperatures_regions = pd.DataFrame(data = inner_merged_conso_temperatures, columns = ['Date_datetime', 'Code INSEE région', 'Région', 'tmin', 'tmax', 'tmoy', 'annee', 'mois', 'Jour_semaine', 'Date-heure ', 'Consommation (MW)'])
 
+df_temperatures
+
+#Renommage des colonnes
+df_temperatures= df_temperatures.rename(columns = {'annee': 'Annee', 'region': 'Libellé Région'})
+
+#Visualisation
+df_temperatures.head()
+
+#Création du df température
+df_temperatures.to_csv (path_or_buf= "df_temperatures.csv",
+                 sep= ";",
+                 header= True)
+
+#Dimension du df
+df_temperatures.shape
+
+#Tableau des températures par région
+df=df_temperatures.groupby(["region"])
+
+df.agg("mean")
+
+
+
