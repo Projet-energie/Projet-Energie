@@ -42,7 +42,7 @@ df["Région"].unique()
 #Production d energie solaire par régions
 sns.relplot(x="Année", y='Solaire (MW)', kind="line", data=df_2016_2020 , hue='Région')
 sns.xlim((2016,2020)
-plt.title('Production d energie solaire par régions')
+plt.title('Production energie solaire par régions')
 
 #exposition solaire des régions
 sns.relplot(x="Année", y='solaire_max', kind="line", data=df , hue ='Région', row_order="Région")
